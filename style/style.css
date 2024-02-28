@@ -1,22 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.behruz{}
+.behruz {}
 
-.fazliddin{}
+.fazliddin {}
 
-.otabek{}
+.otabek {}
 
-.abduvali{}
+.abduvali {}
 
-.ibrohim{}
+.abduvaliCard {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.abduvaliList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.abduvaliInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.abduvaliTitle {
+    font-family: 'Hind Madurai';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(0, 0, 0, 1);
+}
+
+.abduvaliTxt {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #555;
+}
+
+.abduvaliPricePart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.abduvaliPrice {
+    font-family: 'Hind Madurai';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.abduvaliPrice span {
+    font-family: 'Hind Madurai';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    text-decoration-line: line-through;
+    color: #555;
+}
+
+.abduvaliBtn {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FAFAFA;
+    border: none;
+    width: 165px;
+    height: 49px;
+    top: 2861px;
+    left: 580px;
+    border-radius: 5px;
+    background: #D64374;
+    margin-left: auto;
+}
+
+.ibrohim {}
